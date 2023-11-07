@@ -32,6 +32,8 @@ urlpatterns = [
 
     path('registration/', views.registration_request, name='registration'),
 
+    # path('index/', views.get_dealerships, name='index'),
+
     path('logout/', views.logout_request, name='logout'),
 
     path('login/', views.login_request, name='login'),
